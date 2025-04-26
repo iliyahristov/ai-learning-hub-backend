@@ -204,19 +204,4 @@ src/
 
 ### 5.1 Postman Collection
 
-- Файл: [`postman_collection.json`](./postman_collection.json)
-
-### 5.2 Примерни SQL заявки за стартиране (PostgreSQL)
-
-```sql
-CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    role VARCHAR(50) NOT NULL,
-    preferences JSONB DEFAULT '{}',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
--- И останалите таблици подобно
-```
+- Файл: [`postman_collection.json`](src/main/resources/postman_collection.json)
