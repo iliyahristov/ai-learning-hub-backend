@@ -205,3 +205,7 @@ src/
 ### 5.1 Postman Collection
 
 - Файл: [`postman_collection.json`](src/main/resources/postman_collection.json)
+
+### 5.2 MariaDB SQL file
+
+- Файл: [`initial.sql`](src/main/resources/initial.sql)
